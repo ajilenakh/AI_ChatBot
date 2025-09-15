@@ -1,5 +1,4 @@
-myenv/
+.venv
 __pycache__/
 intents.json
-train.py
 data.pth
