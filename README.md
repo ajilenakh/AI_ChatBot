@@ -1,8 +1,6 @@
-<div id="top"></div>
 # AI Chatbot
 
 A Simple Chatbot made using Pytorch and Deep Learning.
-
 
 ## Installation and Usage
 
@@ -11,25 +9,30 @@ A Simple Chatbot made using Pytorch and Deep Learning.
 You can clone the repository using the following command:
 
 ```bash
-https://github.com/ajilenakh/AI_ChatBot.git
+git clone https://github.com/ajilenakh/AI_ChatBot.git
+cd AI_ChatBot
 ```
+
 ### Installing dependencies
 
-After cloning the repository, navigate to the project directory and install the dependencies by running the following command:
+After cloning the repository, make a virtual env of python 3.10.13 then install the dependencies by running the following command:
+
 ```bash
 pip install -r requirements.txt
 ```
->Make sure you are in the directory while executing this command.
+
+> Make sure you are in the directory while executing this command.
+
 ### Running the project
+
 To run the project:
+
 - First, run the train.py file in the directory.
 - Then, run the chat.py file to chat with the chatbot.
 
 > You can change the intents.json file with any other intents.json file to train it with that data. Make sure it is named *intents.json* .
 
-
 ## Contributing
-
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -41,9 +44,3 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
